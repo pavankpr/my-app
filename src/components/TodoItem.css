@@ -1,0 +1,45 @@
+.list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.edit-btn{
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+ 
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style edit and delete buttons */
+  button.edit {
+    background-color: #0f84a1; /* Another shade of blue for edit */
+  }
+  
+  button.edit:hover {
+    background-color: #0c6b86;
+  }
+  
+  .del {
+    background-color: #dc3545; /* Red for delete */
+  }
+  
+  .del:hover {
+    background-color: #c82333;
+  }

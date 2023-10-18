@@ -1,0 +1,10 @@
+.completed-task{
+    display: flex;
+    background-color: #6bb4d6;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
